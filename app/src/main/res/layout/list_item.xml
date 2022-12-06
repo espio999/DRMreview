@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/card_view"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -12,7 +13,7 @@
         <TextView
             android:id="@+id/drmParameter"
             android:textColor="@color/teal_700"
-            android:textSize="15sp"
+            android:textSize="18sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="parent"
@@ -22,11 +23,12 @@
             android:textSize="15sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toTopOf="@id/drmParameter"
+            app:layout_constraintBottom_toBottomOf="@id/drmParameter"
             app:layout_constraintEnd_toEndOf="parent" />
         <TextView
             android:id="@+id/description"
-            android:textSize="12sp"
+            android:textSize="15sp"
+            android:paddingBottom="6sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/drmParameter"

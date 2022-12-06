@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
     //return array list of workable UUID
     private fun identifySupportedDrmSystems(uuidList: Array<String>) : ArrayList<UUID>{
-        val uuidArrayList: java.util.ArrayList<UUID> = arrayListOf()
+        val uuidArrayList: ArrayList<UUID> = arrayListOf()
 
         for (strUuid in uuidList){
             val uuid = UUID.fromString(strUuid)
@@ -132,7 +132,6 @@ class MainActivity : AppCompatActivity() {
                         securityDescriptionList[i]
                     )
                 )
-
                 i++
             }
         }

@@ -25,8 +25,8 @@
         <item name="description_version">Version of installed DRM system</item>
         <item name="description_vendor">Vendor of installed DRM system</item>
         <item name="description_algorithm">Encryption algorithm supported by DRM system</item>
-        <item name="description_security_level">Current security level = Robustness of DRM system\nL1 > L2 > L3\nThe security level may be changed by the vendor.</item>
-        <item name="description_hdcp_level">Current HDCP level of transmission path\nHDCP: High bandwidth Digital Content Protection</item>
+        <item name="description_security_level">Robustness of DRM system\nL1: Perform content decryption and processing in TEE\nL2: Perform content decryption in TEE, but processing out of it.\nL3: Others, not defined as TEE\nThe security level may be changed by the vendor.\n*TEE: Trusted Execution Environment</item>
+        <item name="description_hdcp_level">HDCP support status of transmission path to a device processing content including a cable\n0: UNKNOWN\n1: HDCP is not supported\n2: HDCP Ver 1.0\n3: HDCP version 2.0 Type 1\n4: HDCP version 2.1 Type 1\n5: HDCP version 2.2 Type 1\n6: HDCP version 2.3 Type 1\n2147483647: No digital output\n*HDCP: High bandwidth Digital Content Protection</item>
     </string-array>
 
     <string-array name="security_index_list">
@@ -38,7 +38,7 @@
         <item name="security_level_hw_secure_all">HW_SECURE_ALL</item>
     </string-array>
     <string-array name="security_description_list">
-        <item name="security_level_unknown">SECURITY_LEVEL_UNKNOWN</item>
+        <item name="security_level_unknown">This value may be ignored.</item>
         <item name="security_level_sw_secure_crypto">Whitebox crypto = cryptographic algorithm implemented in software\ntrue: Whitebox based DRM key management.\nfalse:Whitebox crypto does not perform it.</item>
         <item name="security_level_sw_secure_decode">Whitebox crypto = cryptographic algorithm implemented in software\ntrue: Whitebox based DRM key management and content decoding.\nfalse:Whitebox crypto does not perform these operations.</item>
         <item name="security_level_hw_secure_crypto">true: Hardware based DRM key management and crypto operation.\nfalse: Hardware does NOT perform these operations.</item>
