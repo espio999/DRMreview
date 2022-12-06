@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DRM review</string>
+    <string-array name="drm_description_list">
+        <item name="description_description">インストールされているDRMシステム名</item>
+        <item name="description_version">インストールされているDRMシステムのバージョン</item>
+        <item name="description_vendor">インストールされているDRMシステムの提供者</item>
+        <item name="description_algorithm">DRMシステムが対応する暗号アルゴリズム</item>
+        <item name="description_security_level">現在のセキュリティレベル＝DRMシステムの堅牢性\nL1 > L2 > L3\nセキュリティレベルはVENDORの都合により変化します。</item>
+        <item name="description_hdcp_level">現在のHDCPレベル＝伝送経路の堅牢性\nHDCP: High bandwidth Digital Content Protection</item>
+    </string-array>
+
+    <string-array name="security_description_list">
+        <item name="security_level_unknown">この値は無視して構いません。</item>
+        <item name="security_level_sw_secure_crypto">ホワイトボックス暗号方式＝ソフトウェアに実装された暗号アルゴリズム\ntrue: ホワイトボックス暗号方式でのDRM鍵管理。\nfalse:該当処理に対応していません。</item>
+        <item name="security_level_sw_secure_decode">ホワイトボックス暗号方式＝ソフトウェアに実装された暗号アルゴリズム\ntrue: ホワイトボックス暗号方式でのDRM鍵管理、コンテンツの復号化\nfalse:該当処理に対応していません。</item>
+        <item name="security_level_hw_secure_crypto">true: ハードウェアによるDRM鍵管理、暗号処理\nfalse: 該当処理に対応していません。</item>
+        <item name="security_level_hw_secure_decode">true: ハードウェアによるDRM鍵管理、暗号処理、コンテンツの復号化.\nfalse: 該当処理に対応していません。</item>
+        <item name="security_level_hw_secure_all">true: ハードウェアによるDRM鍵管理、暗号処理、コンテンツの復号化、メディア処理\nfalse: 該当処理に対応していません。</item>
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">DRM review</string>
+    
+    <string-array name="uuid_list">
+        <item name="uuid_widevine">edef8ba9-79d6-4ace-a3c8-27dcd51d21ed</item>
+        <item name="uuid_playready">9a04f079-9840-4286-ab92-e65be0885f95</item>
+        <item name="uuid_fairplay">94ce86fb-07ff-4f43-adb8-93d2fa968ca2</item>
+    </string-array>
+
+    <string-array name="mime_list">
+        <item name="mime_mp4">video/mp4</item>
+        <item name="mime_webm">video/webm</item>    
+    </string-array>
+    
+    <string-array name="drm_index_list">
+        <item name="index_description">DESCRIPTION</item>
+        <item name="index_version">VERSION</item>
+        <item name="index_vendor">VENDOR</item>
+        <item name="index_algorithm">ALGORITHM</item>
+        <item name="index_security_level">SECURITY LEVEL</item>
+        <item name="index_hdcp_level">HDCP LEVEL</item>
+    </string-array>
+    <string-array name="drm_description_list">
+        <item name="description_description">Name of installed DRM system</item>
+        <item name="description_version">Version of installed DRM system</item>
+        <item name="description_vendor">Vendor of installed DRM system</item>
+        <item name="description_algorithm">Encryption algorithm supported by DRM system</item>
+        <item name="description_security_level">Current security level = Robustness of DRM system\nL1 > L2 > L3\nThe security level may be changed by the vendor.</item>
+        <item name="description_hdcp_level">Current HDCP level of transmission path\nHDCP: High bandwidth Digital Content Protection</item>
+    </string-array>
+
+    <string-array name="security_index_list">
+        <item name="security_level_unknown">SECURITY_LEVEL_UNKNOWN</item>
+        <item name="security_level_sw_secure_crypto">SW_SECURE_CRYPTO</item>
+        <item name="security_level_sw_secure_decode">SW_SECURE_DECODE</item>
+        <item name="security_level_hw_secure_crypto">HW_SECURE_CRYPTO</item>
+        <item name="security_level_hw_secure_decode">HW_SECURE_DECODE</item>
+        <item name="security_level_hw_secure_all">HW_SECURE_ALL</item>
+    </string-array>
+    <string-array name="security_description_list">
+        <item name="security_level_unknown">SECURITY_LEVEL_UNKNOWN</item>
+        <item name="security_level_sw_secure_crypto">Whitebox crypto = cryptographic algorithm implemented in software\ntrue: Whitebox based DRM key management.\nfalse:Whitebox crypto does not perform it.</item>
+        <item name="security_level_sw_secure_decode">Whitebox crypto = cryptographic algorithm implemented in software\ntrue: Whitebox based DRM key management and content decoding.\nfalse:Whitebox crypto does not perform these operations.</item>
+        <item name="security_level_hw_secure_crypto">true: Hardware based DRM key management and crypto operation.\nfalse: Hardware does NOT perform these operations.</item>
+        <item name="security_level_hw_secure_decode">true: Hardware based DRM key management, crypto operation and content decoding.\nfalse: Hardware does NOT perform these operations.</item>
+        <item name="security_level_hw_secure_all">true: Hardware based DRM key management, crypto operation, content decoding, media handling.\nfalse: Hardware does NOT perform these operations.</item>
+    </string-array>
+</resources>
