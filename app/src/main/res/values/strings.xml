@@ -18,7 +18,7 @@
         <item name="index_vendor">VENDOR</item>
         <item name="index_algorithm">ALGORITHM</item>
         <item name="index_security_level">SECURITY LEVEL</item>
-        <item name="index_hdcp_level">HDCP LEVEL</item>
+        <item name="index_hdcp_level">HDCP LEVEL:\nOn device/On transmission path</item>
     </string-array>
     <string-array name="drm_description_list">
         <item name="description_description">Name of installed DRM system</item>

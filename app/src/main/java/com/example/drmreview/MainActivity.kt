@@ -71,6 +71,7 @@ class MainActivity : AppCompatActivity() {
             MediaDrm.PROPERTY_VENDOR,
             MediaDrm.PROPERTY_ALGORITHMS,
             "securityLevel"
+            //"hdcpLevel"
         )
 
         val drmIndexList = resources.getStringArray(R.array.drm_index_list)
@@ -96,7 +97,7 @@ class MainActivity : AppCompatActivity() {
             drmPropertyArrayList.add(
                 ListItem(
                     drmIndexList[i],
-                    MediaDrm(uuid).connectedHdcpLevel.toString(),
+                    MediaDrm(uuid).maxHdcpLevel.toString() + " / " + MediaDrm(uuid).connectedHdcpLevel.toString(),
                     drmDescriptionList[i]
                 )
             )
