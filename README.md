@@ -12,9 +12,6 @@ This application supports Android 10 or later.
 [Technically Impossible - DRM review Ver 1.1](https://impsbl.hatenablog.jp/entry/DRMreview1.1)
 
 ## Screenshot
-![screenshot jp](https://cdn-ak.f.st-hatena.com/images/fotolife/e/espio999/20221208/20221208145951.png)
-![screenshot en](https://cdn-ak.f.st-hatena.com/images/fotolife/e/espio999/20221208/20221208150005.png)
-
-|screenshot jp|screenshot en|
+|Japanese|English|
 |-------------|-------------|
 |![screenshot jp](https://cdn-ak.f.st-hatena.com/images/fotolife/e/espio999/20221208/20221208145951.png)|![screenshot en](https://cdn-ak.f.st-hatena.com/images/fotolife/e/espio999/20221208/20221208150005.png)|
