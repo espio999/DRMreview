@@ -8,10 +8,8 @@ This application provides following information about
 ## Requirement
 This application supports Android 10 or later.
 
-## Reference
-[Technically Impossible - DRM review Ver 1.1](https://impsbl.hatenablog.jp/entry/DRMreview1.1)
-
-## Screenshot
+## Reference & Screenshot
 |Japanese|English|
 |-------------|-------------|
+|[Technically Impossible - DRM review Ver 1.1](https://impsbl.hatenablog.jp/entry/DRMreview1.1)|[Technically Impossible - DRM review Ver 1.1](https://impsbl.hatenablog.jp/entry/DRMreview1.1_en)|
 |![screenshot jp](https://cdn-ak.f.st-hatena.com/images/fotolife/e/espio999/20221208/20221208145951.png)|![screenshot en](https://cdn-ak.f.st-hatena.com/images/fotolife/e/espio999/20221208/20221208150005.png)|
